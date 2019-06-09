@@ -82,7 +82,7 @@ for skip in range(0,len(W)):      # n loops
             else: # there are at least one Inf; impossiple for a shorter path
                 print("choose W[ %d ][ %d ] =  %2d" %(i, j, W[i][j]))
     print("\nNow, D is")
-    for _ in range(len(W)): print(W[_])
+    for _ in range(len(W)): print(str(W[_]) + ",")
     print("\nThe P matrix is")
     for _ in range(len(P)): print(str(P[_]) + ",")
     print()
